@@ -1,0 +1,7 @@
+config BR2_PACKAGE_AFB_LIBHELPERS
+	bool "afb-libhelpers"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  Application Framework helper library.
+	  
+	  https://github.com/redpesk-common/afb-libhelpers

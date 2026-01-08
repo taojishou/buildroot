@@ -1,0 +1,7 @@
+config BR2_PACKAGE_AFB_LIBGLUE
+	bool "afb-libglue"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  High level abstraction for non C/C++ languages (Lua, Python, NodeJs).
+	  
+	  https://github.com/redpesk-common/afb-libglue

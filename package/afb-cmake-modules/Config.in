@@ -1,0 +1,6 @@
+config BR2_PACKAGE_AFB_CMAKE_MODULES
+	bool "afb-cmake-modules"
+	help
+	  CMake modules for building redpesk bindings.
+	  
+	  https://github.com/redpesk-core/afb-cmake-modules

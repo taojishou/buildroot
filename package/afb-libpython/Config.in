@@ -1,0 +1,9 @@
+config BR2_PACKAGE_AFB_LIBPYTHON
+	bool "afb-libpython"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_PYTHON3
+	help
+	  Python bindings for redpesk Application Framework.
+	  Allows scripting, mocking, and quick prototyping.
+	  
+	  https://github.com/redpesk-common/afb-libpython

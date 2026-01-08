@@ -1,0 +1,7 @@
+config BR2_PACKAGE_SEC_LSM_MANAGER
+	bool "sec-lsm-manager"
+	select BR2_PACKAGE_SEC_CYNAGORA
+	help
+	  Security LSM manager for redpesk.
+	  
+	  https://github.com/redpesk-core/sec-lsm-manager

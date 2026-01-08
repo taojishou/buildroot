@@ -1,0 +1,9 @@
+config BR2_PACKAGE_AFB_LIBAFB
+	bool "afb-libafb"
+	select BR2_PACKAGE_JSON_C
+	select BR2_PACKAGE_LIBMICROHTTPD
+	select BR2_PACKAGE_OPENSSL
+	help
+	  The core library of the redpesk Application Framework Binder.
+	  
+	  https://github.com/redpesk-core/afb-libafb

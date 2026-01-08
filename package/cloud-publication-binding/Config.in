@@ -1,0 +1,8 @@
+config BR2_PACKAGE_CLOUD_PUBLICATION_BINDING
+	bool "cloud-publication-binding"
+	select BR2_PACKAGE_AFB_LIBPYTHON
+	select BR2_PACKAGE_PYTHON3
+	help
+	  Cloud publication service for target data.
+	  
+	  https://github.com/redpesk-common/cloud-publication-binding

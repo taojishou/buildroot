@@ -1,0 +1,7 @@
+config BR2_PACKAGE_AFB_CLIENT
+	bool "afb-client"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  Common client for Application Framework Binder.
+	  
+	  https://github.com/redpesk-core/afb-client

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_CANBUS_GENERATOR
+	bool "canbus-generator"
+	help
+	  CAN signal code generator from JSON descriptions.
+	  
+	  https://github.com/redpesk-common/canbus-generator

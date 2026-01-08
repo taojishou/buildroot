@@ -1,0 +1,10 @@
+config BR2_PACKAGE_SIGNAL_COMPOSER_BINDING
+	bool "signal-composer-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	select BR2_PACKAGE_AFB_LIBCONTROLLER
+	help
+	  Signal composer service for managing and composing signals
+	  from different sources (CAN, GPS, sensors, etc.)
+	  
+	  https://github.com/redpesk-common/signal-composer-binding

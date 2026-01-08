@@ -1,0 +1,7 @@
+config BR2_PACKAGE_AFB_BINDER
+	bool "afb-binder"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  The binder implementation of redpesk Application Framework.
+	  
+	  https://github.com/redpesk-core/afb-binder

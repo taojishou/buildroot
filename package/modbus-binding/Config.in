@@ -1,0 +1,8 @@
+config BR2_PACKAGE_MODBUS_BINDING
+	bool "modbus-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_LIBMODBUS
+	help
+	  Modbus protocol binding for industrial devices.
+	  
+	  https://github.com/redpesk-common/modbus-binding

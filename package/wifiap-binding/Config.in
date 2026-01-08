@@ -1,0 +1,8 @@
+config BR2_PACKAGE_WIFIAP_BINDING
+	bool "wifiap-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	help
+	  WiFi Access Point service binding.
+	  
+	  https://github.com/redpesk-common/wifiap-binding

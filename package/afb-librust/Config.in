@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AFB_LIBRUST
+	bool "afb-librust"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_HOST_RUSTC
+	help
+	  Rust bindings for redpesk Application Framework.
+	  
+	  https://github.com/redpesk-common/afb-librust

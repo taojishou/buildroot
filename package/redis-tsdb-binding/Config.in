@@ -1,0 +1,8 @@
+config BR2_PACKAGE_REDIS_TSDB_BINDING
+	bool "redis-tsdb-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_REDIS
+	help
+	  Redis Timeseries database binding for data logging.
+	  
+	  https://github.com/redpesk-common/redis-tsdb-binding

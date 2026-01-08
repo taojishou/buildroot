@@ -1,0 +1,9 @@
+config BR2_PACKAGE_GPS_BINDING
+	bool "gps-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	select BR2_PACKAGE_GPSD
+	help
+	  GPS service binding for redpesk.
+	  
+	  https://github.com/redpesk-common/gps-binding

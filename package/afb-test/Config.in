@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AFB_TEST
+	bool "afb-test"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_LUA
+	help
+	  Lua-based test framework for AFB bindings.
+	  
+	  https://github.com/redpesk-common/afb-test

@@ -1,0 +1,8 @@
+config BR2_PACKAGE_SEC_GATE_OIDC
+	bool "sec-gate-oidc"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_OPENSSL
+	help
+	  Secure gateway for WebSocket APIs with OpenID-connect support.
+	  
+	  https://github.com/redpesk-common/sec-gate-oidc

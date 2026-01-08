@@ -1,0 +1,10 @@
+config BR2_PACKAGE_CANBUS_BINDING
+	bool "canbus-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	select BR2_PACKAGE_CAN_UTILS
+	help
+	  Low level CAN service for decoding and writing CAN bus.
+	  Supports NMEA2000, J1939, CANopen protocols.
+	  
+	  https://github.com/redpesk-common/canbus-binding

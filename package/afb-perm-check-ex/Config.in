@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AFB_PERM_CHECK_EX
+	bool "afb-perm-check-ex"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_SEC_CYNAGORA
+	help
+	  AFB micro-service for querying cynagora permissions.
+	  
+	  https://github.com/redpesk-common/afb-perm-check-ex

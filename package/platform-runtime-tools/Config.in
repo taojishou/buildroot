@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PLATFORM_RUNTIME_TOOLS
+	bool "platform-runtime-tools"
+	help
+	  Hardware detection, device settings, boot options, hotplug handling.
+	  
+	  https://github.com/redpesk-common/platform-runtime-tools

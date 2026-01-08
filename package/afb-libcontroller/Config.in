@@ -1,0 +1,7 @@
+config BR2_PACKAGE_AFB_LIBCONTROLLER
+	bool "afb-libcontroller"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  Application controller library for redpesk bindings.
+	  
+	  https://github.com/redpesk-common/afb-libcontroller

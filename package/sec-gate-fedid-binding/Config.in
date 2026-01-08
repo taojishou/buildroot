@@ -1,0 +1,7 @@
+config BR2_PACKAGE_SEC_GATE_FEDID_BINDING
+	bool "sec-gate-fedid-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	help
+	  Federated identity and user management binding.
+	  
+	  https://github.com/redpesk-common/sec-gate-fedid-binding

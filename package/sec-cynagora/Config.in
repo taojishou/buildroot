@@ -1,0 +1,6 @@
+config BR2_PACKAGE_SEC_CYNAGORA
+	bool "sec-cynagora"
+	help
+	  Fast, simple and safe permission database service.
+	  
+	  https://github.com/redpesk-core/sec-cynagora

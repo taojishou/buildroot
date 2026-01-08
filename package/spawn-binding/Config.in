@@ -1,0 +1,8 @@
+config BR2_PACKAGE_SPAWN_BINDING
+	bool "spawn-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	help
+	  Binding for spawning scripts and binaries securely.
+	  
+	  https://github.com/redpesk-common/spawn-binding

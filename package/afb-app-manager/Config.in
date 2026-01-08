@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AFB_APP_MANAGER
+	bool "afb-app-manager"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_SEC_LSM_MANAGER
+	help
+	  Application Framework main service for app management.
+	  
+	  https://github.com/redpesk-core/afb-app-manager

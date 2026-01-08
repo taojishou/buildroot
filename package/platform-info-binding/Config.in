@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PLATFORM_INFO_BINDING
+	bool "platform-info-binding"
+	select BR2_PACKAGE_AFB_LIBAFB
+	select BR2_PACKAGE_AFB_CMAKE_MODULES
+	help
+	  Platform information service (hardware, build info, devices).
+	  
+	  https://github.com/redpesk-common/platform-info-binding

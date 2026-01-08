@@ -1,0 +1,9 @@
+config BR2_PACKAGE_SIGNAL_COMPOSER_PLUGINS_N2K
+	bool "signal-composer-plugins-n2k"
+	select BR2_PACKAGE_SIGNAL_COMPOSER_BINDING
+	select BR2_PACKAGE_CANBUS_BINDING
+	help
+	  Signal composer plugin for NMEA2000 messages handling.
+	  Provides marine-specific signal processing.
+	  
+	  https://github.com/redpesk-samples/signal-composer-plugins-demo-n2k

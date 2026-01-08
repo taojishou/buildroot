@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LVGL_HMI_LIB
+	bool "lvgl-hmi-lib"
+	select BR2_PACKAGE_LVGL
+	help
+	  LVGL HMI library for embedded displays.
+	  
+	  https://github.com/redpesk-common/lvgl-hmi-lib

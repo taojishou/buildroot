@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AFB_TEST_PY
+	bool "afb-test-py"
+	select BR2_PACKAGE_AFB_LIBPYTHON
+	select BR2_PACKAGE_PYTHON3
+	help
+	  Unit test framework for AFB bindings.
+	  
+	  https://github.com/redpesk-common/afb-test-py
